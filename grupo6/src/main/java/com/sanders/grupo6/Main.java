@@ -10,9 +10,13 @@ public class Main {
 
         Doctor doctor = new Doctor("Ivan", "Lopez", 45, 80.5, "Hondureño", "88761554", "lopezivan1889@gmail.com",
                 "Cirugía Plástica", 45561);
+        Deportista deportista = new Deportista("María", "Gómez", 25, 65.0, "Española", "34548613",
+                "maria.gomez@gmail.com", "Natación", "Club Delfines");
 
         System.out.println(doctor);
         doctor.ocupacion();
+        System.out.println("\n" + deportista);
+        deportista.ocupacion();
 
     }
 }
